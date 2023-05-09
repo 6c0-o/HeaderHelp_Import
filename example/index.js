@@ -11,10 +11,8 @@ var header = new Header({
     info: [`CPU: 57%`, `RAM: 85%`]
 }, {
     separator: `—`,
-    name: ` 🕷 Other Information `,
+    name: ` 💻 Other Information `,
     info: [`Error: Memory Leak.`, `In: C++`]
 })
 
 header.print();
-
-console.log(process.stdout.columns)

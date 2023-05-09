@@ -1,6 +1,6 @@
 {
   "name": "headerhelp",
-  "version": "0.1",
+  "version": "0.0.1",
   "description": "Help to make good console center header  with information",
   "main": "index.js",
   "scripts": {},
@@ -11,9 +11,7 @@
   "license": "MIT",
   "dependencies": {
     "figlet": "^1.6.0",
-    "gradient-string": "^2.0.2",
-    "os": "^0.1.2",
-    "typescript": "^5.0.4"
+    "gradient-string": "^2.0.2"
   },
   "devDependencies": {},
   "type": "module",

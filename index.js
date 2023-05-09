@@ -101,7 +101,7 @@ export class Header {
                     argsText += sep;
                 }
                 argsText += this.args[i].name;
-                if(countGlobal+argsText.length+lengthTemp != maxLength) lengthTemp -= 1;
+                if(this.args[i].name.length+lengthTemp*2 != maxLength) lengthTemp -= 1;
                 for (let j = 0; j < lengthTemp; j++){
                     argsText = argsText + sep;
                 }
@@ -115,7 +115,7 @@ export class Header {
                     }
                     argsText += this.args[i].info[j] + '\n';
                 }
-                if(this.args.length <= 1 /*|| this.args.length == i+1*/){
+                if(this.args.length < 1 /*|| this.args.length == i+1*/){
                     for (let k = 0; k < countGlobal; k++){
                         argsText += ` `
                     }
