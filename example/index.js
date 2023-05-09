@@ -16,5 +16,3 @@ var header = new Header({
 })
 
 header.print();
-
-console.log(process.stdout.columns)
