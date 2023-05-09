@@ -1,4 +1,4 @@
-- Code in index.js
+- Code in `index.js`
 ```js
 import { Header } from '../index.js';
 var header = new Header({
