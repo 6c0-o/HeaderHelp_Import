@@ -1,4 +1,4 @@
-## HeaderHelp
+## HeaderHelp_Import
 - **IMPORT VERSION**
 ```
 > Beautiful header
@@ -11,8 +11,8 @@
   </p>
   <br />
   <p>
-    <a href="https://www.npmjs.com/package/headerhelp"><img src="https://img.shields.io/npm/v/headerhelp" alt="npm version" /></a>
-    <a href="https://www.npmjs.com/package/headerhelp"><img src="https://img.shields.io/npm/dt/headerhelp" alt="npm downloads" /></a>
+    <a href="https://www.npmjs.com/package/headerhelp_import"><img src="https://img.shields.io/npm/v/headerhelp_import" alt="npm version" /></a>
+    <a href="https://www.npmjs.com/package/headerhelp_import"><img src="https://img.shields.io/npm/dt/headerhelp_import" alt="npm downloads" /></a>
   </p>
 </div>
 
@@ -20,17 +20,17 @@
 
 <strong>HeaderHelp is a [Node.js](https://nodejs.org) module to make good header.</strong>
 
-### <strong>[Example](https://github.com/Lykiooo/HeaderHelp/tree/master/example)</strong>
+### <strong>[Example](https://github.com/Lykiooo/HeaderHelp_Import/tree/master/example)</strong>
 
 ## Installation
 
 ```sh-session
-npm install headerhelp
+npm install headerhelp_import
 ```
 
 ## How to use
 ```js
-import { Header } from '../index.js';
+import { Header } from 'headerhelp_import';
 var header = new Header({
     bannerTitle: string,
 	  bannerStyle: string,
@@ -47,7 +47,7 @@ console.log(header);
 ```
 - Use ``setArgs(...args)``
 ```js
-import { Header } from '../index.js';
+import { Header } from 'headerhelp_import';
 var header = new Header({
     bannerTitle: string,
 	  bannerStyle: string,
