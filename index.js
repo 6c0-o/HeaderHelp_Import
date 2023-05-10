@@ -40,6 +40,7 @@ export class Header {
      * @param {string[]} args.info - The color of title.
      */
     setArgs(...args){
+        OptionsVerifications(this.options, args)
         this.args = args
     }
 
