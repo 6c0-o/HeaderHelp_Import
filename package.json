@@ -1,7 +1,7 @@
 {
-  "name": "headerhelp",
+  "name": "headerhelp_import",
   "version": "0.0.2",
-  "description": "Help to make good console center header  with information",
+  "description": "Help to make good console center header  with information [IMPORT]",
   "main": "index.js",
   "scripts": {},
   "keywords": [
@@ -17,10 +17,10 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Lykiooo/headerhelp.git"
+    "url": "git+https://github.com/Lykiooo/headerhelp_import.git"
   },
   "bugs": {
-    "url": "https://github.com/Lykiooo/headerhelp/issues"
+    "url": "https://github.com/Lykiooo/headerhelp_import/issues"
   },
-  "homepage": "https://github.com/Lykiooo/headerhelp#readme"
+  "homepage": "https://github.com/Lykiooo/headerhelp_import#readme"
 }
